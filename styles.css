@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+}
+
+
+#btnControl1, #btnControl2, #btnControl3,  #btnControl4, #btnControl5 {
+    display: none;
+}
+
+
+@media  (max-width: 819px){
+    .wrapper{
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 820px) and (max-width: 1919px){
+    .wrapper{
+        font-size: 3rem;
+    }
+}
+
+
+@media (min-width: 1920px){
+    .wrapper{
+        font-size:  4rem;
+    }
+}
