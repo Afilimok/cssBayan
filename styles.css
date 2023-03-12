@@ -29,13 +29,14 @@ input[type="radio"] {
     .item:hover .meme {
         height: 100%;
     }
-
-
 }
 
 @media (max-width: 819px) {
     .wrapper {
         font-size: 1rem;
+    }
+    .meme{
+        width: 80%;
     }
 }
 
@@ -43,9 +44,15 @@ input[type="radio"] {
     .wrapper {
         font-size: 1.5rem;
     }
+    .meme{
+        width: 100%;
+    }
 }
 @media (min-width: 1920px) {
     .wrapper {
         font-size: 2rem;
+    }
+    .meme{
+        width: 150%;
     }
 }
