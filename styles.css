@@ -1,32 +1,51 @@
-
-*{
-    box-sizing: border-box;
-    padding: 5px;
-    margin: 0;
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
+.wrapper {
+    background-color: aliceblue;
+}
 
-#btnControl1, #btnControl2, #btnControl3,  #btnControl4, #btnControl5 {
+input[type="radio"] {
     display: none;
 }
 
+.meme {
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4f5f6;
+}
 
-@media  (max-width: 819px){
-    .wrapper{
+
+@media (hover: hover) {
+    .item:hover .meme {
+        height: 100%;
+    }
+
+
+}
+
+@media (max-width: 819px) {
+    .wrapper {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1919px) {
+    .wrapper {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1920px) {
+    .wrapper {
         font-size: 2rem;
-    }
-}
-
-
-@media (min-width: 820px) and (max-width: 1919px){
-    .wrapper{
-        font-size: 3rem;
-    }
-}
-
-
-@media (min-width: 1920px){
-    .wrapper{
-        font-size:  4rem;
     }
 }
